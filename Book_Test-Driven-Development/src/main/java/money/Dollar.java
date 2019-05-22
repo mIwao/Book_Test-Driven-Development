@@ -9,7 +9,7 @@ public class Dollar {
     }
     
     Dollar times(int multiplier) {
-        return new Dollar( this.amount * multiplier);
+        return new Dollar(this.amount * multiplier);
     }
     
     public boolean equals(Object object) {
